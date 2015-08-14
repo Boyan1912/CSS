@@ -1,0 +1,9 @@
+﻿body {
+    font-size:14px;
+}
+div{
+    border: 1px solid red;
+    background-color: black;
+    border-radius: 3em;
+    padding-right:1.4em;
+}

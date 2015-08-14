@@ -1,0 +1,141 @@
+﻿body {
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  font-size: 1em;
+  position: relative;
+  border: 2px solid black;
+  background-color: #F1F1F1;
+}
+body ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+body ul li a {
+  text-decoration: none;
+  color: black;
+}
+body div#under-page {
+  width: 100%;
+  height: 100%;
+  padding-left: 3px;
+  text-align: left;
+  z-index: 0;
+}
+body div#under-page h1 {
+  font-size: 1.4em;
+}
+body div#under-page h1 span {
+  position: absolute;
+  top: 25px;
+  left: 45px;
+}
+body div#under-page h1 img#image-home {
+  width: 30px;
+  height: 35px;
+}
+body div#under-page h2 {
+  font-size: 1.3em;
+  color: red;
+  margin-bottom: 0;
+}
+body div#central-content {
+  border: 2px solid #A2A2A2;
+  width: 60%;
+  height: 95%;
+  position: absolute;
+  top: 3px;
+  left: 200px;
+  z-index: 2;
+  background-color: white;
+  padding: 5px;
+}
+body div#central-content button {
+  width: 120px;
+  height: 25px;
+  border: 2px solid black;
+  background-color: transparent;
+  position: relative;
+}
+body div#central-content button img.previous {
+  position: absolute;
+  left: 2px;
+  bottom: 5px;
+}
+body div#central-content button img.next {
+  position: absolute;
+  right: 2px;
+  bottom: 5px;
+}
+body div#central-content header {
+  border-bottom: 2px solid #808080;
+  padding-bottom: 10px;
+}
+body div#central-content header h1 {
+  font-size: 1.5em;
+}
+body div#central-content h2 {
+  font-size: 1.4em;
+  background-color: #808080;
+  color: white;
+  padding: 0 0 0 3px;
+}
+body div#central-content article h2 {
+  font-size: 1.3em;
+}
+body div#central-content article img {
+  float: left;
+  height: 100px;
+  padding-right: 20px;
+}
+body div#central-content article a {
+  color: red;
+}
+body div#central-content footer {
+  margin-top: 20px;
+  border-top: 2px solid #808080;
+  border-bottom: 2px solid #808080;
+  padding: 15px 0 15px 0;
+}
+body aside {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 25%;
+  z-index: 1;
+  background-color: white;
+}
+body aside div {
+  border: 2px solid #808080;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+body aside div h3 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-align: center;
+  background-color: #808080;
+  color: white;
+  margin-top: 0;
+}
+body aside div a {
+  color: red;
+}
+body aside div input {
+  display: inline-block;
+  font-weight: bolder;
+}
+body aside div img {
+  display: block;
+  margin-left: 35%;
+  margin-bottom: 10px;
+}
+.titled {
+  padding: 0;
+  text-align: center;
+}
+html {
+  background-color: maroon;
+}
+/*# sourceMappingURL=CSSDocumentationSite.css.map */

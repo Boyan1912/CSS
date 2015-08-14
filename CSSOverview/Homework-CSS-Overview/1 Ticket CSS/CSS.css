@@ -1,0 +1,26 @@
+﻿section {
+    background-color:grey;
+    color:beige;
+    width: 400px;
+}
+th {
+    color: beige;
+    font-weight:normal;
+}
+.italic {
+    font-style:italic;
+}
+.yellow {
+    color:yellow;
+}
+#red {
+    color:red;
+    font-weight:bold;
+}
+.darkgrey {
+    color:dimgray;
+}
+#NotAnswered {
+    color:#ff4500;
+    font-weight:bold;
+}

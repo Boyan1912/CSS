@@ -1,0 +1,59 @@
+﻿body {
+  font-size: 14px;
+}
+body div#main {
+  width: 650px;
+  height: 280px;
+  border: 2px solid #806850 outset;
+  border-radius: 10px;
+  background-color: #3b3b3b;
+}
+body div#main header {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  height: 50px;
+  background: linear-gradient (to bbottom, #393939, #343434, #393939);
+}
+body div#main header h2 {
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+body div#main header form {
+  vertical-align: central;
+  float: right;
+  top: 50px;
+  right: 10px;
+}
+body div#main .inline-block {
+  display: inline-block;
+  margin-left: 20px;
+}
+body div#main div#content {
+  color: #6d6d6d;
+  padding: 15px;
+}
+body div#main div#content h1 {
+  color: yellow;
+  margin-top:0;
+}
+body div#main div#content p {
+  margin: 0;
+}
+body div#main div#content p span {
+  color: white;
+}
+#pc {
+  float: right;
+  position: absolute;
+  left: 15px;
+}
+#go-button {
+  width: 55px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=StyleSheet.css.map */

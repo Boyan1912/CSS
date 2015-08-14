@@ -1,0 +1,96 @@
+﻿body {
+    font-size:14px;
+}
+
+body > section {
+    width:500px;
+    height:500px;
+    border-left:5px solid;
+    border-left-color: #89c3eb;
+    border-right:5px solid;
+    border-right-color: #89c3eb;
+    border-bottom:5px solid;
+    border-bottom-color: #89c3eb;
+background: #ebf1f6; /* Old browsers */
+background: -moz-linear-gradient(top,  #ebf1f6 0%, #abd3ee 56%, #abd3ee 63%, #abd3ee 63%, #89c3eb 100%, #d5ebfb 100%, #89c3eb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(56%,#abd3ee), color-stop(63%,#abd3ee), color-stop(63%,#abd3ee), color-stop(100%,#89c3eb), color-stop(100%,#d5ebfb), color-stop(100%,#89c3eb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ebf1f6 0%,#abd3ee 56%,#abd3ee 63%,#abd3ee 63%,#89c3eb 100%,#d5ebfb 100%,#89c3eb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ebf1f6 0%,#abd3ee 56%,#abd3ee 63%,#abd3ee 63%,#89c3eb 100%,#d5ebfb 100%,#89c3eb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ebf1f6 0%,#abd3ee 56%,#abd3ee 63%,#abd3ee 63%,#89c3eb 100%,#d5ebfb 100%,#89c3eb 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ebf1f6 0%,#abd3ee 56%,#abd3ee 63%,#abd3ee 63%,#89c3eb 100%,#d5ebfb 100%,#89c3eb 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#89c3eb',GradientType=0 ); /* IE6-9 */
+border-radius:5px;
+}
+
+.header {
+    text-align:left;
+    font-weight:100;
+    
+    position:relative;
+    }
+#calc {
+    vertical-align:top;
+    position:absolute;
+    top:7px;
+    left:24px;
+    }
+
+#calcimage {
+    width:15px;
+    height:20px;
+    margin-left:5px;
+    margin-top:5px;
+}
+#FunctionButtons {
+    margin-left:21em;
+    position:absolute;
+    right:10px;
+    top:0;
+    }
+
+#TopButtons {
+    display:table-row;
+    border-bottom:1px solid black;
+}
+
+
+.topbuttons {
+   background-color:transparent;
+   border:none;
+
+}
+#CentralPart {
+    border:2px solid black;
+    height:466px;
+    width:495px;
+    position:relative;
+    
+}
+
+
+.topbuttons:hover:first-letter {
+    text-decoration:underline;
+}
+
+#DisplayWindow {
+    width:467px;
+    height:60px;
+    position:absolute;
+    left:14px;
+    top:30px;
+    background-color:#ebf3fa;
+    border:2px solid gray;
+}
+
+#Binary {
+    width:447px;
+    position:absolute;
+    left:14px;
+    top:100px;
+    padding:10px;
+    background-color:transparent;
+    border:2px solid gray;
+    font-size:1.6em;
+    text-align:center;
+    
+}

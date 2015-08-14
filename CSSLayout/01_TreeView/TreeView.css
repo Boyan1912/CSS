@@ -1,0 +1,27 @@
+﻿body li{
+    list-style-type:none;
+    }
+body ul li ul li {
+    display:none;
+    color:gray;
+}
+body ul li:hover ul li {
+    display:block;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+a:hover {
+    text-decoration:underline;
+}
+ul li ul {
+    padding:0;
+    margin-left:0;
+}
+
+.sublistItem {
+    color:gray;
+    padding-left:10px;
+}
